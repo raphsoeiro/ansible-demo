@@ -2,7 +2,7 @@ This demo is intended to show users on how to quickly deploy and configure an EC
 
 Here are the steps:
 
-1 -> Create 2 IAM Roles:
+1 -> Create 2 IAM Roles: (for step one I recommend reading in the raw format)
   - Ansible role: 
        a. attach the AmazonEC2FullAccess managed policy;
        b. Create an inline policy (IAMLaunchRole) and allow the following actions:
