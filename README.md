@@ -37,7 +37,7 @@ Here are the steps:
   - Tag if you want
   - Create a SG that allows SSH into the instance
 
-3 -> Create new SG allowing SSH from the Ansible SSH and HTTP from anywhere. This SG will be attached to the instances that Ansible will create and bootstrap.
+3 -> Create new SG allowing SSH from the Ansible SG and HTTP from anywhere. This SG will be attached to the instances that Ansible will create and bootstrap.
 
 4 -> Create a new key par (ansible) to be used with the instances being launche by Ansible (you can use an existing one as well). Upload the pem file to the Ansible server. Also chmod 400 pemfile
 
