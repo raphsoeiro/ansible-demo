@@ -1,0 +1,15 @@
+Ansible-Demo AMIs
+
+us-east-1: ami-18e1d770
+us-west-2: ami-e1173ed1
+eu-central-1: ami-3281bc2f
+sa-east-1: ami-d3f04ace
+ap-southeast-2: ami-41dcaf7b
+
+Amazon Linux AMI
+
+us-east-1: ami-1ecae776
+us-west-2: ami-e7527ed7
+eu-central-1: ami-a8221fb5
+sa-east-1: ami-b52890a8
+ap-southeast-2: ami-fd9cecc7
