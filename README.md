@@ -30,7 +30,7 @@ Here are the steps:
   - Bootstrapping role:
   		a. attach the S3ReadOnlyAccess managed policy.
 
-2 -> Launch an Instance (t2.micro is fine) using the Demo AMI in one of the regions.
+2 -> Launch an Instance (t2.micro is fine) using the Demo AMI in one of the regions. (refer to the AMIs file)
   - Enable Auto-assign Public IP
   - Attach the Ansible role to the instance
   - Don't change storage
