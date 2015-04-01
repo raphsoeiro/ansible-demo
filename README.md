@@ -39,13 +39,13 @@ Here are the steps:
 
 3 -> Create new SG allowing SSH from the Ansible SG and HTTP from anywhere. This SG will be attached to the instances that Ansible will create and bootstrap.
 
-4 -> Create a new key par (ansible) to be used with the instances being launche by Ansible (you can use an existing one as well). Upload the pem file to the Ansible server. Also chmod 400 pemfile
+4 -> Create a new key par (ansible) to be used with the instances being launched by Ansible (you can use an existing one as well). Upload the pem file to the Ansible server. Also 'chmod 400 pemfile'
 
 5 -> Log into the instance. in the home directory, you should see 2 files:
   - deploy.sh 
-     - used to launch new instances and add their IPs to Ansible's inventory file. Please note that you will have to edit the script whenever you see USER ACTION
+     - used to launch new instances and add their IPs to Ansible's inventory file. Please note that you will have to edit the script
   - web.yml
-  	 - Ansible's playbook file with our instructions. In this case install Apache, PHP, anc copy an php file to the server
+  	 - Ansible's playbook file with our instructions. In this case install Apache, PHP, and copy an php file to the server
   - in the /etc/ansible directory there should be a hosts file. If you see anything under [webservers], please delete the lines, before continuing
 
 6 -> You will need to gather the following information: Amazon Linux ami-id of the region you are deploying /  key name / Bootstrapping sg-ig / subnet-id / region
